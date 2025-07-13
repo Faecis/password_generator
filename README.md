@@ -1,6 +1,6 @@
 # Password Generator
 
-A simple and secure password generator using entropy-supplying system calls.
+A simple and secure password generator written in C.
 This tool generates random passwords using entropy from system calls, allowing you to customize the character set and output options.
 
 ## Features
