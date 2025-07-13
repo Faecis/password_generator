@@ -22,7 +22,7 @@ This tool generates random passwords using entropy from system calls, allowing y
     * 2nd digit: Uppercase letters
     * 3rd digit: Lowercase letters
     * 4th digit: Special characters
-* `[output_file]`: (Optional) File to save the generated passwords
+* `[output_file]`: File to save the generated passwords (Optional)
 
 ### Example
 
