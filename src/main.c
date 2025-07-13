@@ -50,24 +50,10 @@ int main(int argc, char** argv) {
 
     // Report the parsed flags.
 
-    for (int i = 0; i < 4; i++) {
-        switch (i) {
-            case 0:
-                fprintf(stdout, "Numbers: %s\n", (flags & 0b1000) ? "Enabled" : "Disabled");
-                break;
-            case 1:
-                fprintf(stdout, "Uppercase: %s\n", (flags & 0b0100) ? "Enabled" : "Disabled");
-                break;
-            case 2:
-                fprintf(stdout, "Lowercase: %s\n", (flags & 0b0010) ? "Enabled" : "Disabled");
-                break;
-            case 3:
-                fprintf(stdout, "Special Characters: %s\n", (flags & 0b0001) ? "Enabled" : "Disabled");
-                break;
-            default:
-                break;
-        }
-    }
+    fprintf(stdout, "Numbers: %s\n", (flags & 0b1000) ? "Enabled" : "Disabled");
+    fprintf(stdout, "Uppercase: %s\n", (flags & 0b0100) ? "Enabled" : "Disabled");
+    fprintf(stdout, "Lowercase: %s\n", (flags & 0b0010) ? "Enabled" : "Disabled");
+    fprintf(stdout, "Special Characters: %s\n", (flags & 0b0001) ? "Enabled" : "Disabled");
 
     // Open the output file if provided.
 
