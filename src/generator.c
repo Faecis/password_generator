@@ -89,7 +89,7 @@ char* get_string(uint64_t password_length, char* character_set, uint8_t set_leng
  * @param password_length Length of each password to generate.
  * @param repeat          Number of passwords to generate.
  * @param flags           Bitmask for character set selection (see get_character_set).
- * @param save_fd         File descriptor to save output to (if > 0), otherwise prints to stdout.
+ * @param save_fd         File descriptor to save output to (if > 0).
  */
 void generate(uint64_t password_length, uint64_t repeat, uint8_t flags, int save_fd) {
     // Get the character set based on the flags.
