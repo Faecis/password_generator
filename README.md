@@ -17,8 +17,8 @@ This tool generates random passwords using entropy from system calls, allowing y
 
 * `<length>`: Length of each password (integer)
 * `<repeat>`: Number of passwords to generate (integer)
-* `<flags>`: 4-digit binary string to select character sets:
-    * 1st digit: Numbers (1 = include, 0 = exclude)
+* `<flags>`: 4-digit binary string to select character sets (1 = include, 0 = exclude):
+    * 1st digit: Numbers
     * 2nd digit: Uppercase letters
     * 3rd digit: Lowercase letters
     * 4th digit: Special characters
