@@ -8,6 +8,15 @@
 #include "generator.h"
 
 
+/**
+ * Program entry point.
+ * Parses command-line arguments, configures password generation options,
+ * and outputs generated passwords to stdout or a file.
+ *
+ * @param argc Number of command-line arguments.
+ * @param argv Array of argument strings.
+ * @return EXIT_SUCCESS on success, EXIT_FAILURE on error.
+ */
 int main(int argc, char** argv) {
     fprintf(stdout, "Pasword Generator\n\n");
 
