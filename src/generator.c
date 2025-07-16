@@ -40,7 +40,7 @@ char* get_character_set(int flags) {
     // Fill the character set based on the flags.
 
     char* ptr = characters_set;
-    for (int i = 0; i < 4; i++){
+    for (int i = 0; i < 4; i++) {
         if (flags & (1 << (3-i))) ptr = stpcpy(ptr, character_sets[i]);
     }
 
