@@ -12,7 +12,7 @@
  * 
  * @param flags Bitmask indicating which character groups to include:
  *              0b1000 - Numbers, 0b0100 - Uppercase, 0b0010 - Lowercase, 0b0001 - Special Characters.
- * @return Dynamically allocated string containing the selected characters. Caller must free the memory.
+ * @return Dynamically allocated string containing the selected characters. CALLER MUST FREE THE MEMORY.
  */
 char* get_character_set(int flags) {
     const char* character_sets[] = {
@@ -54,7 +54,7 @@ char* get_character_set(int flags) {
  * @param password_length Length of the password to generate.
  * @param character_set   String containing all possible characters to use.
  * @param set_length      Length of the character_set string.
- * @return Dynamically allocated password string. Caller must free the memory.
+ * @return Dynamically allocated password string. CALLER MUST FREE THE MEMORY.
  */
 char* get_string(uint64_t password_length, char* character_set, uint8_t set_length) {
     // Allocate memory for the password.
