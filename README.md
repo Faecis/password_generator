@@ -11,7 +11,7 @@ This tool generates random passwords using entropy from system calls, allowing y
 
 ## Usage
 
-```sh
+```
 ./password_generator <length> <repeat> <flags> [output_file]
 ```
 
