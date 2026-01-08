@@ -26,7 +26,7 @@ This tool generates random passwords using entropy from system calls, allowing y
 
 ### Example
 
-```sh
+```
 ./password_generator 16 5 1101 passwords.txt
 ```
 
